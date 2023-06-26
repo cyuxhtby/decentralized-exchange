@@ -9,8 +9,8 @@ export default function Home() {
           Welcome
         </h1>
 
-        <Link href="/dex">
-          <button>Enter DEX</button>
+        <Link href="/dex" target="_blank">
+          <button className={styles.button}>Enter DEX</button>
         </Link>
       </main>
     </div>

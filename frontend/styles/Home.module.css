@@ -117,3 +117,11 @@
 .logo img {
   filter: invert(1);
 }
+
+.button{
+  margin: 20px;
+}
+.button:hover {
+  background-color: #f213a4;
+}
+
