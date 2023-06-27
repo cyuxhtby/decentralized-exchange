@@ -6,34 +6,43 @@
   padding: 2rem;
 }
 
+.action {
+  display: flex;
+  align-items: center;
+  margin: 0.05rem;
+}
+
 .input {
-  margin: 0.5rem;
+  margin: 0.2rem;
   padding: 0.5rem;
   font-size: 1rem;
+  flex: 1;
+  height: 30px;
 }
 
 .button {
-  margin: 0.5rem;
-  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.2rem;
+  padding: 0.5rem;
   font-size: 1rem;
-  cursor: pointer;
-  background-color: #4CAF50;
+  cursor:pointer;
+  background-color: white;
   border: none;
-  color: white;
+  color: black;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
   transition-duration: 0.4s;
+  height: 30px; 
 }
 
 .button:hover {
-  background-color: white;
-  color: black;
+  background-color: #f213a4;
+  color: white;
 }
 
-.connectWallet {
-  padding: 15px;
-  margin: 15px;
+.connectWalletContainer {
+  margin-top: 30px;
+  margin-bottom: 60px; 
 }
