@@ -1,4 +1,4 @@
-import { ThirdwebProvider, metamaskWallet, coinbaseWallet, walletConnect } from "@thirdweb-dev/react";
+import { ThirdwebProvider, metamaskWallet, coinbaseWallet, walletConnect, localWallet, paperWallet } from "@thirdweb-dev/react";
 import { Sepolia } from "@thirdweb-dev/chains";
 import "../styles/globals.css";
 
@@ -9,7 +9,7 @@ const activeChain = Sepolia;
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThirdwebProvider activeChain={activeChain} supportedWallets={[metamaskWallet(), coinbaseWallet(), walletConnect()]}>
+    <ThirdwebProvider activeChain={activeChain} supportedWallets={[metamaskWallet(), coinbaseWallet(), walletConnect(), localWallet(), paperWallet()]}>
       <Component {...pageProps} />
     </ThirdwebProvider>
   );

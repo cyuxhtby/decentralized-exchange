@@ -125,3 +125,11 @@
   background-color: #f213a4;
 }
 
+
+.buttonMint {
+  font-size: 0.5rem  ;
+}
+.buttonMint:hover {
+  background-color: #0ea5e9;
+}
+

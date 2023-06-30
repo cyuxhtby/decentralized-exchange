@@ -12,6 +12,9 @@ export default function Home() {
         <Link href="/dex" target="_blank">
           <button className={styles.button}>Enter DEX</button>
         </Link>
+        <Link href="/mint">
+        <button className={styles.buttonMint}> Mint</button>
+        </Link>
       </main>
     </div>
   );
